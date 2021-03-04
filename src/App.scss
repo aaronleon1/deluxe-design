@@ -29,7 +29,8 @@
   }
 
   .hero-row{
-      height: 100vh;
+    height: calc(100vh - 40px); 
+    
   }
   
   @keyframes App-logo-spin {

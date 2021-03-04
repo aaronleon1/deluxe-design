@@ -29,7 +29,7 @@ function App() {
             </Container>
           </Navbar>
           
-          <Row className='hero-row mt-3'>
+          <Row className='hero-row mt-4'>
             <Col xs={12} md={6} className='my-auto'>
             <Jumbotron  fluid className='mb-3 pb-2'style={{background: '#fff', backgroundColor: '#fff'}}>
               <h1 className='display-4 text-left ml-1'>We Give Your Business an <span style={{color: '#6b70fd'}}>Edge</span> Over Your Competitors!</h1>
