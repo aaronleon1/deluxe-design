@@ -1,5 +1,10 @@
+$primary: #233d63;
+$secondary: #6b70fd;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 .App {
     text-align: center;
+    font-family: 'Inter', sans-serif !important;
   }
   
   .App-logo {
@@ -30,9 +35,76 @@
 
   .hero-row{
     height: calc(100vh - 40px); 
+    min-height: 100%;
     
   }
-  
+
+  .testimonial-row{
+    height: 100%;
+  }
+
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px $secondary
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 1rem auto;
+        max-width: 80vw
+    }
+}
+
+.card-img  {
+    width: 6.2rem !important;
+    border-radius: 5rem !important;
+    margin: 1.3rem auto 1rem auto !important;
+}
+
+.col-md-4 {
+    padding: 0 0.5rem
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+
+.card-text {
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem
+}
+
+.footer {
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+   
+}
+
+#name {
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+#position {
+    font-size: 0.7rem
+}
+
+a {
+    color: $primary;
+    font-weight: bold
+}
+
+a:hover {
+    color: $secondary
+}
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -46,7 +118,8 @@
       bottom: 5%;
   }
   $theme-colors: (
-      'primary': #6b70fd
+      'primary': #233d63,   
+      'secondary': #6b70fd
   );
 
   @import "~bootstrap/scss/bootstrap";
