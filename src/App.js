@@ -123,7 +123,70 @@ function App() {
               <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Start a Project <i class="fas fa-arrow-right"></i></Button>
             </Row>
           </Col>
+        </Row>
 
+        <Row className='my-5'>
+          <Col xs={12} md={6}className='my-5'>
+          <Row>
+              <Col xs={12} md={6}>
+              <Card style={{width: '16rem'}}>
+                <Card.Body>
+                  <Card.Title><i class="fas fa-comments-dollar" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Budget Friendly</Card.Title>
+                  <Card.Text className='text-left' style={{fontWeight: '500'}}>
+                  We offer budget-friendly all in one comprehensive designing services including UX/UI that meet all your business requirements.
+                  </Card.Text>
+                 
+                </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} md={6}>
+                <Card style={{width: '16rem'}} className='mt-5'>
+                  <Card.Body>
+                    <Card.Title><i class="fas fa-clipboard-check" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Fast and Reliable</Card.Title>
+                    <Card.Text className='text-left' style={{fontWeight: '500'}}>
+                      Our team of expert designers provide fast and reliable services using modern tools that you can always rely on.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <Row className='mt-5'>
+              <Col xs={12} md={6}>
+              <Card style={{width: '16rem'}}>
+                <Card.Body>
+                  <Card.Title><i class="far fa-laugh-beam" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>User Friendly</Card.Title>
+                  <Card.Text className='text-left' style={{fontWeight: '500'}}>
+                    We aim to make designing and developing as simple as possible. Our team of experts will stay in touch with you from initial concepts to final stages, you will have the complete control over the process, and your views will be given top priority.
+                  </Card.Text>
+                 
+                </Card.Body>
+                </Card>
+              </Col>
+              <Col xs={12} md={6}>
+                <Card style={{width: '16rem'}} className='mt-5'>
+                  <Card.Body>
+                    <Card.Title><i class="far fa-thumbs-up" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Quality Work</Card.Title>
+                    <Card.Text className='text-left' style={{fontWeight: '500'}}>
+                      We do all our best to provide quality services with consultation also keeping in mind to offer the best customer experiences possible.
+                    </Card.Text>
+                    
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+          </Col>
+            
+
+
+          <Col xs={12} md={6} className='my-auto'>
+            <p className='text-left h1 text-primary' style={{fontWeight: '600'}}>Some Of The Benefits Of Working With Us</p>
+            <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Deluxe Design has a strong reputation as being one of the best web design agencies in the performance marketing industry… and that’s good news for you.</p>
+            <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Our highly skilled team of marketers, designers, developers, and brand experts know exactly what it takes to ensure your website grabs your visitor’s attention, ensuring your online business is in the top 10% that succeeds.</p>
+            <Row>
+              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Get In Touch<i class="fas fa-arrow-right"></i></Button>  
+            </Row>
+          </Col>
+         
         </Row>
 
       </Container>
