@@ -260,6 +260,44 @@ function App() {
 
           </Col>
         </Row>
+
+        <Row className='our-promise my-5'>
+          <Col xs={12} md={6} className='my-auto'>
+            <Image fluid src='Images/team.jpg' />
+          </Col>
+          <Col xs={12} md={6}>
+            <p className='text-left h2 text-primary' style={{fontWeight: '600'}}>Our Promises</p>
+            <p className='text-left' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Our designers and developers help you build innovative digital solutions and applications and allow you to deliver captivating user experiences across all channels.</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> Visual Design and Branding</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> Graphics Detailing</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> Prototyping</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> Review and Validation</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> User Acceptance</p>
+            <p className='text-left'><i class="fas fa-check-circle" style={{color: '#6b70fd'}}></i> Launch the Project</p>
+            <p className='text-left' style={{color: '#8B9CB6'}}>We take our years of experience and apply them to create truly innovative digital solutions for clients across different sectors.</p>
+          </Col>
+        </Row>
+        
+        <Row className='my-5'>
+          <Col xs={12}>
+            <p className="text-center text-primary h1 mt-5" style={{fontWeight: '700'}}>We Have Successfully Completed <br/> Over 500 Projects</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={12} md={4}>
+            <p className='text-secondary text-center h1'>500+</p>
+            <p className='text-primary text-center h3'>Projects Completed</p>
+          </Col>
+          <Col xs={12} md={4}>
+            <p className='text-secondary text-center h1'>490+</p>
+            <p className='text-primary text-center h3'>Positive Reviews</p>
+          </Col>
+          <Col xs={12} md={4}>
+            <p className='text-secondary text-center h1'>400+</p>
+            <p className='text-primary text-center h3'>Customers Worldwide</p>
+          </Col>
+        </Row>
       </Container>
         
       
