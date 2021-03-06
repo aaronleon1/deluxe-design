@@ -42,7 +42,9 @@ $secondary: #6b70fd;
   .testimonial-row{
     height: 100%;
   }
-
+  .lets-talk{
+    background-image: linear-gradient(to right bottom, #233d63, #254c8a, #315ab1, #4966d7, #6b70fd);
+  }
   .card {
     border-radius: 1rem;
     box-shadow: 0px -10px 0px $secondary

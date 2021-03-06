@@ -120,7 +120,7 @@ function App() {
             <p className=' h5 text-left mb-4 ' style={{lineHeight: '2rem', color: '#8B9CB6'}}>With over 5 years of expertise and a forward-thinking team has resulted in a very strategic design and web development agency that understands the need of its clients. We conduct research & design digital experiences to make companies more customer-centric and help increase their customer loyalty. Here, at Deluxe Design, the team are new breed of mastermind, driven to create, be innovative and produce results in the best way possible within an agreed timeframe.</p>
             <p className=' h5 text-left mb-4 ' style={{lineHeight: '2rem', color: '#8B9CB6'}}>Our Vision: <br/> At Deluxe Design, we desire to become a frontrunner in advancing businesses through digital demands. Creative design, customer satisfaction, innovation, and teamwork, are the fundamental principles behind our company, and persist to reflect on who we are, how we work, and what we endeavor for.</p>
             <Row>
-              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Start a Project <i class="fas fa-arrow-right"></i></Button>
+              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Start a Project <i class="fas fa-chevron-right"></i></Button>
             </Row>
           </Col>
         </Row>
@@ -181,7 +181,7 @@ function App() {
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Deluxe Design has a strong reputation as being one of the best web design agencies in the performance marketing industry… and that’s good news for you.</p>
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Our highly skilled team of marketers, designers, developers, and brand experts know exactly what it takes to ensure your website grabs your visitor’s attention, ensuring your online business is in the top 10% that succeeds.</p>
             <Row>
-              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Get In Touch <i class="fas fa-arrow-right"></i></Button>  
+              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Get In Touch <i class="fas fa-chevron-right"></i></Button>  
             </Row>
           </Col>
         </Row>
@@ -197,7 +197,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-ruler-combined text-secondary"></i></Card.Title>
+              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-ruler-combined text-primary"></i></Card.Title>
               <Card.Title>Responsive Website Design</Card.Title>
               <Card.Text>
                 We design fully responsive websites to ensure that they adapt seemlessly to phones, tablets or PCs/Laptops.
@@ -207,7 +207,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-            <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-drafting-compass text-secondary"></i></Card.Title>
+            <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-drafting-compass text-primary"></i></Card.Title>
               <Card.Title>Logos & Branding</Card.Title>
               <Card.Text>
                 Our creative team will design innovative and attractive logos for your business that becomes your brand’s identity.
@@ -217,7 +217,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-            <Card.Title style={{fontSize: '4rem'}}><i class="fab fa-wordpress text-secondary"></i></Card.Title>
+            <Card.Title style={{fontSize: '4rem'}}><i class="fab fa-wordpress text-primary"></i></Card.Title>
               <Card.Title>WordPress Development</Card.Title>
               <Card.Text>
                 We will make sure that you have an error-free interface, effective navigation and a user-friendy experience on your WordPress site.
@@ -230,7 +230,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-object-group text-secondary"></i></Card.Title>
+            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-object-group text-primary"></i></Card.Title>
               <Card.Title>UI/UX Design</Card.Title>
               <Card.Text>
                 We provide out of the box UI/UX design services by following the latest design trends and considering the client requirements carefully.
@@ -240,7 +240,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-home text-secondary"></i></Card.Title>
+              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-home text-primary"></i></Card.Title>
               <Card.Title>Landing Page Design</Card.Title>
               <Card.Text>
                 With our vast expertise we will design an awesome landing page for your business which converts visitors to leads.
@@ -250,7 +250,7 @@ function App() {
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
-            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-newspaper text-secondary"></i></Card.Title>
+            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-newspaper text-primary"></i></Card.Title>
               <Card.Title>Print Design</Card.Title>
               <Card.Text>
                 We design awesome marketing materials for printing on business cards, fliers, posters, and beyond.
@@ -263,7 +263,7 @@ function App() {
 
         <Row className='our-promise my-5'>
           <Col xs={12} md={6} className='my-auto'>
-            <Image fluid src='Images/team.jpg' />
+            <Image fluid src='Images/team.jpg' style={{borderRadius: '8px'}}/>
           </Col>
           <Col xs={12} md={6}>
             <p className='text-left h2 text-primary' style={{fontWeight: '600'}}>Our Promises</p>
@@ -299,6 +299,83 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Container fluid>
+        <Row className='lets-talk my-5 py-5'>
+          <Col xs={12} md={{ span: 3, offset: 3 }}>
+            <p className='text-left h1 mb-5' style={{color: '#fff'}}>Let’s Talk About Your Project.</p>
+            <p className='text-left h5 mb-5' style={{color: '#fff', lineHeight: '1.8rem'}}>No matter where your business currently stands in the marketplace, Deluxe Design offers a full suite of services that will take your business to the next level and help reach your goals.</p>
+            <Row>
+              <Button variant='outline-light' size='lg' className='ml-3 mb-5'>Let's Talk <i class="fas fa-chevron-right"></i></Button>
+            </Row>
+          </Col>
+          <Col xs={12} md={3}>
+            <Image fluid src='Images/letsTalk.jpg' style={{borderRadius: '8px'}}/>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row className='team my-5'>
+          <Col xs={12} md={4}>
+
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member1.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>Anita Chan</Card.Title> UX/UI Designer
+              </Card.Text>
+              
+            </Card>
+
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member2.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>Kiersten Horemis</Card.Title> Front-End Developer
+              </Card.Text>
+              
+            </Card>
+
+          </Col>
+          <Col xs={12} md={4}>
+          
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member3.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>Mark Cilento</Card.Title> Back-End Developer
+              </Card.Text>
+             
+            </Card>
+
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member4.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>James Gonzalez</Card.Title> Digital Media Designer/WordPress Developer
+              </Card.Text>
+         
+            </Card>
+            
+          </Col>
+          <Col xs={12} md={4}>
+          
+          <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member5.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>I get so much more business now!</Card.Title> I used to use a service where I could make my own website, but it just took too much work. When I contacted Deluxe Design and told them what I wanted, they had an idea in mind immediately and got back to me with everything I needed in two days. Incredible!
+              </Card.Text>
+              
+            </Card>
+
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member6.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>I get so much more business now!</Card.Title> I used to use a service where I could make my own website, but it just took too much work. When I contacted Deluxe Design and told them what I wanted, they had an idea in mind immediately and got back to me with everything I needed in two days. Incredible!
+              </Card.Text>
+              
+            </Card>
+            
+          </Col>
+        </Row>
+      </Container>
+        
+      
         
       
     </div>
