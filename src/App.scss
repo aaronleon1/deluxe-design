@@ -76,8 +76,9 @@ $secondary: #6b70fd;
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.8rem;
-    color: rgb(82, 81, 81);
-    line-height: 1.4rem
+    color: $primary !important;
+    line-height: 1.4rem;
+    font-weight: 500 !important;
 }
 
 .footer {

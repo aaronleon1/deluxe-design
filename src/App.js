@@ -76,7 +76,7 @@ function App() {
 
         <Row className='mt-5'>
           <Col xs={12}>
-            <p className="text-center text-primary h2 mb-5" style={{fontWeight: '700', fontFamily: 'Inter'}}>What Our Clients Think</p>
+            <p className="text-center text-primary h1 mb-5" style={{fontWeight: '700'}}>What Our Clients Think</p>
           </Col>
         </Row>
 
@@ -175,20 +175,91 @@ function App() {
               </Col>
             </Row>
           </Col>
-            
-
 
           <Col xs={12} md={6} className='my-auto'>
             <p className='text-left h1 text-primary' style={{fontWeight: '600'}}>Some Of The Benefits Of Working With Us</p>
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Deluxe Design has a strong reputation as being one of the best web design agencies in the performance marketing industry… and that’s good news for you.</p>
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Our highly skilled team of marketers, designers, developers, and brand experts know exactly what it takes to ensure your website grabs your visitor’s attention, ensuring your online business is in the top 10% that succeeds.</p>
             <Row>
-              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Get In Touch<i class="fas fa-arrow-right"></i></Button>  
+              <Button variant="outline-secondary" size='lg' className='ml-3' style={{borderRadius: '999px', padding: '16px 20px'}}>Get In Touch <i class="fas fa-arrow-right"></i></Button>  
             </Row>
           </Col>
-         
         </Row>
 
+        <Row>
+          <Col xs={12}>
+            <p className="text-center text-primary h1 mt-5" style={{fontWeight: '700'}}>We Hold Expertise In All <br/> Your Digital needs</p>
+          </Col>
+        </Row>
+
+        <Row className='expertise-row'>
+          <Col xs={12} md={6}>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-ruler-combined text-secondary"></i></Card.Title>
+              <Card.Title>Responsive Website Design</Card.Title>
+              <Card.Text>
+                We design fully responsive websites to ensure that they adapt seemlessly to phones, tablets or PCs/Laptops.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+            <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-drafting-compass text-secondary"></i></Card.Title>
+              <Card.Title>Logos & Branding</Card.Title>
+              <Card.Text>
+                Our creative team will design innovative and attractive logos for your business that becomes your brand’s identity.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+            <Card.Title style={{fontSize: '4rem'}}><i class="fab fa-wordpress text-secondary"></i></Card.Title>
+              <Card.Title>WordPress Development</Card.Title>
+              <Card.Text>
+                We will make sure that you have an error-free interface, effective navigation and a user-friendy experience on your WordPress site.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          </Col>
+          <Col xs={12} md={6}>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-object-group text-secondary"></i></Card.Title>
+              <Card.Title>UI/UX Design</Card.Title>
+              <Card.Text>
+                We provide out of the box UI/UX design services by following the latest design trends and considering the client requirements carefully.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+              <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-home text-secondary"></i></Card.Title>
+              <Card.Title>Landing Page Design</Card.Title>
+              <Card.Text>
+                With our vast expertise we will design an awesome landing page for your business which converts visitors to leads.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card border='secondary' className='my-5'>
+            <Card.Body>
+            <Card.Title style={{fontSize: '4rem'}}><i class="far fa-newspaper text-secondary"></i></Card.Title>
+              <Card.Title>Print Design</Card.Title>
+              <Card.Text>
+                We design awesome marketing materials for printing on business cards, fliers, posters, and beyond.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          </Col>
+        </Row>
       </Container>
         
       
