@@ -314,6 +314,12 @@ function App() {
         </Row>
       </Container>
       <Container>
+        <Row>
+          <Col xs={12}>
+            <p className='text-center h1 text-primary mt-5 mb-3'>Meet the Team</p>
+          </Col>
+          
+        </Row>
         <Row className='team my-5'>
           <Col xs={12} md={4}>
 
@@ -325,13 +331,6 @@ function App() {
               
             </Card>
 
-            <Card class="d-flex mx-auto">
-              <Card.Img src="Images/member2.jpg" className='team-img  mx-auto' /> 
-              <Card.Text >
-                  <Card.Title>Kiersten Horemis</Card.Title> Front-End Developer
-              </Card.Text>
-              
-            </Card>
 
           </Col>
           <Col xs={12} md={4}>
@@ -344,13 +343,7 @@ function App() {
              
             </Card>
 
-            <Card class="d-flex mx-auto">
-              <Card.Img src="Images/member4.jpg" className='team-img  mx-auto' /> 
-              <Card.Text >
-                  <Card.Title>James Gonzalez</Card.Title> Digital Media Designer/WordPress Developer
-              </Card.Text>
-         
-            </Card>
+           
             
           </Col>
           <Col xs={12} md={4}>
@@ -358,21 +351,41 @@ function App() {
           <Card class="d-flex mx-auto">
               <Card.Img src="Images/member5.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
-                  <Card.Title>I get so much more business now!</Card.Title> I used to use a service where I could make my own website, but it just took too much work. When I contacted Deluxe Design and told them what I wanted, they had an idea in mind immediately and got back to me with everything I needed in two days. Incredible!
-              </Card.Text>
-              
-            </Card>
-
-            <Card class="d-flex mx-auto">
-              <Card.Img src="Images/member6.jpg" className='team-img  mx-auto' /> 
-              <Card.Text >
-                  <Card.Title>I get so much more business now!</Card.Title> I used to use a service where I could make my own website, but it just took too much work. When I contacted Deluxe Design and told them what I wanted, they had an idea in mind immediately and got back to me with everything I needed in two days. Incredible!
+                  <Card.Title>William Li</Card.Title> Full Stack Developer
               </Card.Text>
               
             </Card>
             
           </Col>
         </Row>
+
+        <Row>
+          <Col xs={12} md={4}>
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member2.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>Kiersten Horemis</Card.Title> Front-End Developer
+              </Card.Text>
+            </Card>
+          </Col>
+          <Col xs={12} md={4}>
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member4.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>James Gonzalez</Card.Title> Digital Media Designer/WordPress Developer
+              </Card.Text>
+            </Card>
+          </Col>
+          <Col xs={12} md={4}>
+            <Card class="d-flex mx-auto">
+              <Card.Img src="Images/member6.jpg" className='team-img  mx-auto' /> 
+              <Card.Text >
+                  <Card.Title>Catherine Brown</Card.Title> Social Media Relations
+              </Card.Text>
+            </Card>
+          </Col>
+        </Row>
+        
       </Container>
         
       
