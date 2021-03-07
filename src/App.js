@@ -103,7 +103,7 @@ function App() {
               <Card class="d-flex mx-auto">
               <Card.Img fluid src="Images/owner3.jpg" className='testimonial-img  mx-auto'/> 
                   <Card.Text>
-                      <Card.Title>Business picked up more than I expected!</Card.Title> We used to just have our menu and address posted up on our website, but I felt that we could do better. I noticed Deluxe Design's ad and sent them an email on Thursday. By Monday morning, we were ready to post the new website! I LOVE all the animations and colors they added.
+                      <Card.Title>Business picked up more than I expected!</Card.Title> We used to just have our menu and address posted up on our website, but I felt that we could do better. I noticed Deluxe Design's ad and sent them an email on Thursday. By Monday morning, the new site was ready to go! I LOVE all the animations and colors they added.
                   </Card.Text>
                   <div class="footer"> <span id="name">Joseph Alfaro Agosto<br/></span> <span id="position">Owner of Agosto Coffee Co. </span> </div>
               </Card>
@@ -140,7 +140,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card style={{width: '16rem'}} className='mt-5'>
+                <Card style={{width: '16rem'}} >
                   <Card.Body>
                     <Card.Title><i class="fas fa-clipboard-check" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Fast and Reliable</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -163,7 +163,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card style={{width: '16rem'}} className='mt-5'>
+                <Card style={{width: '16rem'}} >
                   <Card.Body>
                     <Card.Title><i class="far fa-thumbs-up" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Quality Work</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -300,7 +300,7 @@ function App() {
         </Row>
       </Container>
       <Container fluid>
-        <Row className='lets-talk my-5 py-5'>
+        <Row className='lets-talk my-5 py-5 '>
           <Col xs={12} md={{ span: 3, offset: 3 }}>
             <p className='text-left h1 mb-5' style={{color: '#fff'}}>Let’s Talk About Your Project.</p>
             <p className='text-left h5 mb-5' style={{color: '#fff', lineHeight: '1.8rem'}}>No matter where your business currently stands in the marketplace, Deluxe Design offers a full suite of services that will take your business to the next level and help reach your goals.</p>
@@ -316,11 +316,11 @@ function App() {
       <Container>
         <Row>
           <Col xs={12}>
-            <p className='text-center h1 text-primary mt-5 mb-3'>Meet the Team</p>
+            <p className='text-center h1 text-primary mt-5 mb-3 mb-sm-2'>Meet the Team</p>
           </Col>
           
         </Row>
-        <Row className='team my-5'>
+        <Row className='team my-5 mb-xs-3'>
           <Col xs={12} md={4}>
 
             <Card class="d-flex mx-auto">
