@@ -23,7 +23,7 @@ function App() {
           </Navbar>
           
           <Row className='hero-row my-4'>
-            <Col xs={12} md={6} className='my-auto'>
+            <Col xs={12} lg={6} className='my-auto'>
             <Jumbotron  fluid className='mb-3 pb-2'style={{background: '#fff', backgroundColor: '#fff'}}>
               <h1 className='display-4 text-left ml-1 text-primary' style={{fontFamily: 'Inter'}}>Give Your Business the <span className='text-secondary' style={{fontWeight: '400'}}>Edge</span> It Needs!</h1>
               <p className='lead text-left ml-1'>
@@ -31,7 +31,7 @@ function App() {
               </p>
               <Form className='ml-1'>
                 <Form.Row >
-                  <Col xs={8} md={10}>
+                  <Col xs={10}>
                     <Form.Group controlId="formBasicEmail" >
                     <Form.Control type="email" size="lg" placeholder="Enter your email address" style={{paddingTop: '1.8rem', paddingBottom: '1.8rem'}}/>
                     </Form.Group>
@@ -46,7 +46,7 @@ function App() {
               </Form>
             </Jumbotron>  
             </Col>
-            <Col xs={12} md={6} className='my-auto'>
+            <Col xs={12} lg={6} className='my-auto'>
               <Image src='Images/hero-img.png' fluid />
             </Col>
           </Row>
@@ -294,14 +294,14 @@ function App() {
       </Container>
       <Container fluid>
         <Row className='lets-talk my-5 py-5 '>
-          <Col xs={{span: 12, order: 2}} md={{ span: 6, offset: 1 }} lg={{span: 3, offset: 3}}>
+          <Col xs={{span: 12, order: 2}} md={{ span: 12, order: 1 }} lg={{span: 3, offset: 3}}>
             <p className='text-left h1 mb-5' style={{color: '#fff'}}>Let’s Talk About Your Project.</p>
             <p className='text-left h5 mb-5' style={{color: '#fff', lineHeight: '1.8rem'}}>No matter where your business currently stands in the marketplace, Deluxe Design offers a full suite of services that will take your business to the next level and help reach your goals.</p>
             <Row>
               <Button variant='outline-light' size='lg' className='ml-3 mb-5'>Let's Talk <i class="fas fa-chevron-right"></i></Button>
             </Row>
           </Col>
-          <Col xs={{span: 12, order: 1}} md={{span: 6, order: 6}} lg={3}>
+          <Col xs={{span: 12, order: 1}} md={{span: 12, order: 2}} lg={3}>
             <Image fluid src='Images/letsTalk.jpg' style={{borderRadius: '8px'}}/>
           </Col>
         </Row>
