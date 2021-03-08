@@ -51,28 +51,28 @@ function App() {
                 </Form.Row>
                
               </Form>
-            </Jumbotron>
-            
-              <p className='text-left ml-1 mt-1'>
-                Recently featured on:
-              </p>
-            
-            <Row className='ml-1 pb-2'>
-              <Col xs={3}>
-                <Image src='Images/wapoLogo.png' fluid />
-              </Col>
-              <Col xs={3}>
-                <Image src='Images/forbes.png' fluid />
-              </Col>
-              <Col xs={4}>
-               <Image src='Images/caLogo.png' fluid />
-              </Col>
-            </Row>
+            </Jumbotron>  
             </Col>
             <Col xs={12} md={6} className='my-auto'>
               <Image src='Images/hero-img.png' fluid />
             </Col>
           </Row>
+
+            <p className='text-left ml-1 mt-1'>
+              Recently featured on:
+            </p>
+            
+            <Row className='featured-row mb-5 ml-1 pb-2'>
+              <Col xs={3} md ={2} lg={1}>
+                <Image src='Images/wapoLogo.png' fluid />
+              </Col>
+              <Col xs={3} md={2} lg={1}>
+                <Image src='Images/NYTLogo.png' fluid />
+              </Col>
+              <Col xs={3} md={2} lg={1}>
+               <Image src='Images/LATimesLogo.png' fluid />
+              </Col>
+            </Row>
 
         <Row className='mt-5'>
           <Col xs={12}>
@@ -129,7 +129,7 @@ function App() {
           <Col xs={12} md={6}className='my-5'>
           <Row>
               <Col xs={12} md={6}>
-              <Card style={{width: '16rem'}}>
+              <Card >
                 <Card.Body>
                   <Card.Title><i class="fas fa-comments-dollar" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Budget Friendly</Card.Title>
                   <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -140,7 +140,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card style={{width: '16rem'}} >
+                <Card  >
                   <Card.Body>
                     <Card.Title><i class="fas fa-clipboard-check" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Fast and Reliable</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -152,7 +152,7 @@ function App() {
             </Row>
             <Row className='mt-5'>
               <Col xs={12} md={6}>
-              <Card style={{width: '16rem'}}>
+              <Card >
                 <Card.Body>
                   <Card.Title><i class="far fa-laugh-beam" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>User Friendly</Card.Title>
                   <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -163,7 +163,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card style={{width: '16rem'}} >
+                <Card  >
                   <Card.Body>
                     <Card.Title><i class="far fa-thumbs-up" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Quality Work</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -301,14 +301,14 @@ function App() {
       </Container>
       <Container fluid>
         <Row className='lets-talk my-5 py-5 '>
-          <Col xs={12} md={{ span: 3, offset: 3 }}>
+          <Col xs={{span: 12, order: 2}} md={{ span: 6, offset: 1 }} lg={{span: 3, offset: 3}}>
             <p className='text-left h1 mb-5' style={{color: '#fff'}}>Let’s Talk About Your Project.</p>
             <p className='text-left h5 mb-5' style={{color: '#fff', lineHeight: '1.8rem'}}>No matter where your business currently stands in the marketplace, Deluxe Design offers a full suite of services that will take your business to the next level and help reach your goals.</p>
             <Row>
               <Button variant='outline-light' size='lg' className='ml-3 mb-5'>Let's Talk <i class="fas fa-chevron-right"></i></Button>
             </Row>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={{span: 12, order: 1}} md={{span: 6, order: 6}} lg={3}>
             <Image fluid src='Images/letsTalk.jpg' style={{borderRadius: '8px'}}/>
           </Col>
         </Row>
