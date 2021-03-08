@@ -9,14 +9,7 @@ function App() {
       <Container>
         <Navbar bg="light" fixed="top" expand='lg'>
             <Container>
-              <Navbar.Brand href="#home"><img
-        alt=""
-        src="Images/ddLogo.png"
-        width="36"
-        height="36"
-        className="d-inline-block align-top"
-      />{' '}
-      Deluxe Design</Navbar.Brand>
+              <Navbar.Brand href="#home">Deluxe Design</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav inline className='ml-auto'>
