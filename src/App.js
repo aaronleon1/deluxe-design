@@ -378,6 +378,30 @@ function App() {
             </Card>
           </Col>
         </Row>
+
+        <Row>
+          <Col xs={12}>
+            <p className='text-center h1 text-primary mt-5 mb-3 mb-sm-2'>We Operate Worldwide</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={12} md={4}>
+            <Image src='Images/nySkyline.png' fluid />
+            <p>New York, NY</p>
+            <p>United States</p>
+          </Col>
+          <Col xs={12} md={4}>
+            <Image src='Images/TORSkyline.png' fluid />
+            <p>Toronto</p>
+            <p>Canada</p>
+          </Col>
+          <Col xs={12} md={4}>
+            <Image src='Images/londonSkyline.png' fluid />
+            <p>London, EN</p>
+            <p>United Kingdom</p>
+          </Col>
+        </Row>
         
       </Container>
         
