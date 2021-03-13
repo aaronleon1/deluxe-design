@@ -13,10 +13,8 @@ function App() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav inline className='ml-auto'>
-                  <Nav.Link href='#home'>Themes</Nav.Link>
-                  <Nav.Link href='#home'>Apps</Nav.Link>
-                  <Nav.Link href='#home'>Assets</Nav.Link>
-                  <Nav.Link href='#home'>Contact Us</Nav.Link>
+                  <Nav.Link href='#about'>About</Nav.Link>
+                  <Nav.Link href='#contact-us'>Contact Us</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -55,14 +53,14 @@ function App() {
               Recently featured on:
             </p>
             
-            <Row className='featured-row mb-5 ml-1 pb-2'>
-              <Col xs={3} md ={2} lg={1}>
+            <Row className='featured-row mb-5 ml-1 pb-5'>
+              <Col xs={3} md ={2} className='mb-5'>
                 <Image src='Images/wapoLogo.png' fluid />
               </Col>
-              <Col xs={3} md={2} lg={1}>
+              <Col xs={3} md={2} >
                 <Image src='Images/NYTLogo.png' fluid />
               </Col>
-              <Col xs={3} md={2} lg={1}>
+              <Col xs={3} md={2} >
                <Image src='Images/LATimesLogo.png' fluid />
               </Col>
             </Row>
@@ -102,9 +100,10 @@ function App() {
               </Card>
           </Col>
         </Row>
-
+        <a id='about'>   </a>
         <Row className='about-us my-5 pt-5'>
           <Col xs={12} md={5}>
+            
             <p className='text-secondary h4 text-left mb-3'>About Us</p>
             <h2 className='text-primary display-4 text-left' style={{fontWeight: '700'}}>Welcome to Deluxe Design</h2>
           </Col>
@@ -117,10 +116,10 @@ function App() {
             </Row>
           </Col>
         </Row>
-
+        
         <Row className='my-5'>
           <Col xs={12} md={6}className='my-5'>
-          <Row>
+          <Row className=' mb-md-1 mb-xs-0'>
               <Col xs={12} md={6}>
               <Card >
                 <Card.Body>
@@ -133,7 +132,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card  >
+                <Card  className=' mb-3 my-sm-5'>
                   <Card.Body>
                     <Card.Title><i class="fas fa-clipboard-check" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Fast and Reliable</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
@@ -143,7 +142,7 @@ function App() {
                 </Card>
               </Col>
             </Row>
-            <Row className='mt-5'>
+            <Row className=' mt-xs-3 mt-md-5'>
               <Col xs={12} md={6}>
               <Card >
                 <Card.Body>
@@ -186,14 +185,14 @@ function App() {
         </Row>
 
         <Row className='expertise-row'>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} >
 
           <Card border='secondary' className='my-5'>
             <Card.Body>
               <Card.Title style={{fontSize: '4rem'}}><i class="fas fa-ruler-combined text-primary"></i></Card.Title>
               <Card.Title>Responsive Website Design</Card.Title>
               <Card.Text>
-                We design fully responsive websites to ensure that they adapt seemlessly to phones, tablets or PCs/Laptops.
+                We design fully responsive experiences to ensure that they adapt seemlessly to phones, tablets, and PCs/Laptops.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -208,9 +207,9 @@ function App() {
             </Card.Body>
           </Card>
 
-          <Card border='secondary' className='my-5'>
+          <Card border='secondary' className=' mt-5 mb-0 my-sm-5'>
             <Card.Body>
-            <Card.Title style={{fontSize: '4rem'}}><i class="fab fa-wordpress text-primary"></i></Card.Title>
+            <Card.Title style={{fontSize: '4rem'}}><i className="fab fa-wordpress text-primary"></i></Card.Title>
               <Card.Title>WordPress Development</Card.Title>
               <Card.Text>
                 We will make sure that you have an error-free interface, effective navigation and a user-friendy experience on your WordPress site.
@@ -241,7 +240,7 @@ function App() {
             </Card.Body>
           </Card>
 
-          <Card border='secondary' className='my-5'>
+          <Card border='secondary'  className=' mt-5 mb-0 my-sm-5'>
             <Card.Body>
             <Card.Title style={{fontSize: '4rem'}}><i class="far fa-newspaper text-primary"></i></Card.Title>
               <Card.Title>Print Design</Card.Title>
@@ -313,10 +312,10 @@ function App() {
           </Col>
           
         </Row>
-        <Row className='team my-5 mb-xs-3'>
+        <Row className='team my-md-5 mb-xs-0'>
           <Col xs={12} md={4}>
 
-            <Card class="d-flex mx-auto">
+            <Card className="d-flex mx-auto">
               <Card.Img src="Images/member1.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>Anita Chan</Card.Title> UX/UI Designer
@@ -328,7 +327,7 @@ function App() {
           </Col>
           <Col xs={12} md={4}>
           
-            <Card class="d-flex mx-auto">
+            <Card className="d-flex mx-auto">
               <Card.Img src="Images/member3.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>Mark Cilento</Card.Title> Back-End Developer
@@ -339,9 +338,9 @@ function App() {
            
             
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} >
           
-          <Card class="d-flex mx-auto">
+          <Card className="d-flex mx-auto">
               <Card.Img src="Images/member5.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>William Li</Card.Title> Full Stack Developer
@@ -354,7 +353,7 @@ function App() {
 
         <Row>
           <Col xs={12} md={4}>
-            <Card class="d-flex mx-auto">
+            <Card className="d-flex mx-auto">
               <Card.Img src="Images/member2.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>Kiersten Horemis</Card.Title> Front-End Developer
@@ -362,7 +361,7 @@ function App() {
             </Card>
           </Col>
           <Col xs={12} md={4}>
-            <Card class="d-flex mx-auto">
+            <Card className="d-flex mx-auto">
               <Card.Img src="Images/member4.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>James Gonzalez</Card.Title> Digital Media Designer/WordPress Developer
@@ -370,7 +369,7 @@ function App() {
             </Card>
           </Col>
           <Col xs={12} md={4}>
-            <Card class="d-flex mx-auto">
+            <Card className="d-flex mx-auto">
               <Card.Img src="Images/member6.jpg" className='team-img  mx-auto' /> 
               <Card.Text >
                   <Card.Title>Catherine Brown</Card.Title> Social Media Relations
@@ -381,33 +380,131 @@ function App() {
 
         <Row>
           <Col xs={12}>
-            <p className='text-center h1 text-primary mt-5 mb-3 mb-sm-2'>We Operate Worldwide</p>
+            <p className='text-center h1 text-primary mt-5 mb-3 mb-sm-2'>Get In Touch</p>
           </Col>
         </Row>
 
-        <Row>
-          <Col xs={12} md={4}>
-            <Image src='Images/nySkyline.png' fluid />
-            <p>New York, NY</p>
-            <p>United States</p>
+        <Row className='mt-5 mb-3'>
+          <Col xs={12} md={6} lg={{span: 4, offset: 2}}>
+            <p className='text-left h4'>Los Angeles, California</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="far fa-envelope text-secondary"></i>: hello@deluxedesign.com</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="fas fa-phone text-secondary"></i>: 213-555-0184</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="far fa-map text-secondary"></i>: USA</p>
           </Col>
-          <Col xs={12} md={4}>
-            <Image src='Images/TORSkyline.png' fluid />
-            <p>Toronto</p>
-            <p>Canada</p>
-          </Col>
-          <Col xs={12} md={4}>
-            <Image src='Images/londonSkyline.png' fluid />
-            <p>London, EN</p>
-            <p>United Kingdom</p>
+          
+          <Col xs={12} md={6} lg={{span: 4, offset: 1}}> 
+            <p className='text-left h4'>New York, New York</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="far fa-envelope text-secondary"></i>: hello@deluxedesign.com</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="fas fa-phone text-secondary"></i>: 212-555-0182</p>
+            <p className='text-left' style={{fontWeight: '600'}}><i className="far fa-map text-secondary"></i>: USA</p>
           </Col>
         </Row>
-        
+
       </Container>
-        
-      
-        
-      
+      <a id='contact-us'>   </a>
+      <Container fluid>
+        <Row className='cta-form'>
+          <Col xs={12} md={{span: 4, offset: 3}}style={{background: '#fff'}} className='my-xs-0 my-md-3'>
+            <Form >
+              <p className='text-left h2 py-3' >Contact Us</p>
+              <Row>
+                <Col>
+                  <Form.Control placeholder="Name" className='py-4' />
+                </Col>
+                <Col>
+                  <Form.Control placeholder="Email"  className='py-4'/>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Control placeholder="Phone Number"  className='py-4'/>
+                </Col>
+                <Col>
+                  <Form.Control placeholder="Company"  className='py-4'/>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Control as='textarea' placeholder='Message'  className='pb-5 mt-4 mb-2' style={{borderTop: '0'}}/>
+                </Col>
+              </Row>
+              <Row>
+               
+                  <Button variant="outline-secondary" size='lg' className='ml-3 px-4 py-2 my-2'>Submit</Button>
+                
+              </Row>
+            </Form>
+          </Col>
+          <Col xs={12} md={2} style={{background: '#9EA3FF'}}  className='my-xs-0 my-md-3'>
+            <Row className='mt-2'>
+              <Col className='mt-xs-0 mt-md-5'>
+              <p className='mt-2 text-left text-white' style={{fontWeight: '600'}} ><i className="fas fa-phone text-white"></i>: 213-555-0184</p>
+              <p className='text-left text-white' style={{fontWeight: '600'}}><i className="far fa-envelope text-white"></i>: hello@deluxedesign.com</p>
+              <p className='text-left text-white' style={{fontWeight: '600'}}><i className="far fa-map text-white"></i>: New York, NY</p>
+              <p className='text-left text-white' ><i className="fab fa-facebook"style={{fontSize: '2rem'}}></i> <i className="fab fa-twitter-square"style={{fontSize: '2rem'}}></i> <i className="fab fa-instagram-square"style={{fontSize: '2rem'}}></i> <i className="fab fa-linkedin"style={{fontSize: '2rem'}}></i></p>
+              </Col>
+            </Row>
+            
+            
+          </Col>
+        </Row>
+      </Container>
+      <Container style={{background: '#f6f6f6'}}>
+        <Row className='deluxe-footer'>
+          <Col xs={12} md={9} className='my-md-5'>
+            <p className='text-left h1 text-primary'>Deluxe Design</p>
+          </Col>
+          <Col xs={12} md={3} className='my-md-5'>
+            <p className='text-primary text-left pt-2'><i className="fab fa-facebook"style={{fontSize: '2rem'}}></i> <i className="fab fa-twitter-square"style={{fontSize: '2rem'}}></i> <i className="fab fa-instagram-square"style={{fontSize: '2rem'}}></i> <i className="fab fa-linkedin"style={{fontSize: '2rem'}}></i></p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className='mb-3'>
+            <hr />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={3}>
+            <p className='text-left text-primary h4'>Quick Links</p>
+            <p className='text-left text-muted mt-3'>Home</p>
+            <p className='text-left text-muted'>About Us</p>
+            <p className='text-left text-muted'>Services</p>
+            <p className='text-left text-muted'>Blog</p>
+            <p className='text-left text-muted'>Portfolio</p>
+            <p className='text-left text-muted'>Testimonials</p>
+            <p className='text-left text-muted'>Work With Us</p>
+            <p className='text-left text-muted'>Site Map</p>
+          </Col>
+          <Col xs={12} md={3}>
+            <p className='text-left text-primary h4'>Services</p>
+            <p className='text-left text-muted mt-3'>Landing Page Design</p>
+            <p className='text-left text-muted'>UI/UX Design</p>
+            <p className='text-left text-muted'>Website Design</p>
+            <p className='text-left text-muted'>Identity and Branding</p>
+            <p className='text-left text-muted'>Wordpress Development</p>
+            <p className='text-left text-muted'>Mobile App Development</p>
+          </Col>
+          <Col xs={12} md={3}>
+            <p className='text-left text-primary h4'>Company</p>
+            <p className='text-left text-muted mt-3'>Benefits</p>
+            <p className='text-left text-muted'>Services</p>
+            <p className='text-left text-muted'>Portfolio</p>
+            <p className='text-left text-muted'>Contact Us</p>
+            <p className='text-left text-muted'>Privacy Policy</p>
+            <p className='text-left text-muted'>Terms & Conditions</p>
+          </Col>
+          <Col xs={12} md={3}>
+            <p className='text-left text-primary h4'>Get In Touch</p>
+            <p className='mt-2 text-left text-muted mt-3' style={{fontWeight: '600'}} ><i className="fas fa-phone text-muted"></i>: 213-555-0184</p>
+            <p className='text-left text-muted' style={{fontWeight: '600'}}><i className="far fa-envelope text-muted"></i>: hello@deluxedesign.com</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className='text-left text-primary mt-5' style={{fontWeight: '600'}}>Copyright © 2021 DeluxeDesign. All Rights Reserved.</p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

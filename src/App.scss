@@ -46,7 +46,7 @@ $secondary: #6b70fd;
   .testimonial-row{
     height: 100%;
   }
-  .lets-talk{
+  .lets-talk, .cta-form{
     background-image: linear-gradient(to right bottom, #233d63, #254c8a, #315ab1, #4966d7, #6b70fd);
   }
   .card {
@@ -87,7 +87,7 @@ $secondary: #6b70fd;
     font-weight: 500 !important;
 }
 
-.footer {
+.card-footer {
     border-top: none;
     text-align: center;
     line-height: 1.2rem;
@@ -109,6 +109,12 @@ a {
     font-weight: bold
 }
 
+.form-control{
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
 a:hover {
     color: $secondary
 }
@@ -126,7 +132,8 @@ a:hover {
   }
   $theme-colors: (
       'primary': #233d63,   
-      'secondary': #6b70fd
+      'secondary': #6b70fd,
+      'white': #fff
   );
 
   @import "~bootstrap/scss/bootstrap";
