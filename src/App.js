@@ -132,7 +132,7 @@ function App() {
                 </Card>
               </Col>
               <Col xs={12} md={6}>
-                <Card  className=' mb-3 my-sm-5'>
+                <Card  className=' mb-3 mb-sm-5'>
                   <Card.Body>
                     <Card.Title><i class="fas fa-clipboard-check" style={{fontSize: '4rem', color:'#233d63'}}></i><br/>Fast and Reliable</Card.Title>
                     <Card.Text className='text-left' style={{fontWeight: '500'}}>
