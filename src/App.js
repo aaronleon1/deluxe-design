@@ -375,7 +375,7 @@ function App() {
             </Card>
           </Col>
         </Row>
-
+        <a id='contact-us'>   </a>
         <Row>
           <Col xs={12}>
             <p className='text-center h1 text-primary mt-5 mb-3 mb-sm-2'>Get In Touch</p>
@@ -399,7 +399,7 @@ function App() {
         </Row>
 
       </Container>
-      <a id='contact-us'>   </a>
+      
       <Container fluid>
         <Row className='cta-form'>
           <Col xs={12} md={{span: 5, offset: 2}} lg={{span: 4, offset: 3}} style={{background: '#fff'}} className='my-xs-0 my-md-3'>
