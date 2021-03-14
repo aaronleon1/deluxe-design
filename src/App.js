@@ -54,7 +54,7 @@ function App() {
             </p>
             
             <Row className='featured-row mb-5 ml-1 '>
-              <Col xs={{span: 3, offset: 4}} md={2}>
+              <Col xs={{span: 3, offset: 3}} md={{span:2, offset: 4}}>
                 <Image src='Images/wapoLogo.png' fluid />
               </Col>
               <Col xs={3} md={2}  >
