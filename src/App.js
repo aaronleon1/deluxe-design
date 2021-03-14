@@ -49,20 +49,18 @@ function App() {
             </Col>
           </Row>
 
-            <p className='text-left ml-1 mt-1'>
+            <p className='text-center ml-1 mt-1'>
               Recently featured on:
             </p>
             
-            <Row className='featured-row mb-5 ml-1 pb-5'>
-              <Col xs={3} md ={2} className='mb-5'>
+            <Row className='featured-row mb-5 ml-1 '>
+              <Col xs={{span: 3, offset: 4}} md={2}>
                 <Image src='Images/wapoLogo.png' fluid />
               </Col>
-              <Col xs={3} md={2} >
+              <Col xs={3} md={2}  >
                 <Image src='Images/NYTLogo.png' fluid />
               </Col>
-              <Col xs={3} md={2} >
-               <Image src='Images/LATimesLogo.png' fluid />
-              </Col>
+              
             </Row>
 
         <Row className='mt-5'>

@@ -118,6 +118,16 @@ a {
 a:hover {
     color: $secondary
 }
+
+.deluxe-footer{
+  .Row{
+    .Col{
+      p{
+        cursor: pointer;
+      }
+    }
+  }
+}
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
