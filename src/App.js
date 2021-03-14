@@ -118,7 +118,7 @@ function App() {
         </Row>
         
         <Row className='my-5'>
-          <Col xs={12} md={6}className='my-5'>
+          <Col xs={12} lg={6}className='my-5'>
           <Row className=' mb-md-1 mb-xs-0'>
               <Col xs={12} md={6}>
               <Card >
@@ -168,7 +168,7 @@ function App() {
             </Row>
           </Col>
 
-          <Col xs={12} md={6} className='my-auto'>
+          <Col xs={12} lg={6} className='my-auto'>
             <p className='text-left h1 text-primary' style={{fontWeight: '600'}}>Some Of The Benefits Of Working With Us</p>
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Deluxe Design has a strong reputation as being one of the best web design agencies in the performance marketing industry… and that’s good news for you.</p>
             <p className=' text-left mb-4' style={{color: '#8B9CB6', lineHeight: '2rem', fontSize: '1.3rem', fontWeight: '500'}}>Our highly skilled team of marketers, designers, developers, and brand experts know exactly what it takes to ensure your website grabs your visitor’s attention, ensuring your online business is in the top 10% that succeeds.</p>
@@ -404,7 +404,7 @@ function App() {
       <a id='contact-us'>   </a>
       <Container fluid>
         <Row className='cta-form'>
-          <Col xs={12} md={{span: 4, offset: 3}}style={{background: '#fff'}} className='my-xs-0 my-md-3'>
+          <Col xs={12} md={{span: 5, offset: 2}} lg={{span: 4, offset: 3}} style={{background: '#fff'}} className='my-xs-0 my-md-3'>
             <Form >
               <p className='text-left h2 py-3' >Contact Us</p>
               <Row>
@@ -435,7 +435,7 @@ function App() {
               </Row>
             </Form>
           </Col>
-          <Col xs={12} md={2} style={{background: '#9EA3FF'}}  className='my-xs-0 my-md-3'>
+          <Col xs={12} md={4} lg={2} style={{background: '#9EA3FF'}}  className='my-xs-0 my-md-3'>
             <Row className='mt-2'>
               <Col className='mt-xs-0 mt-md-5'>
               <p className='mt-2 text-left text-white' style={{fontWeight: '600'}} ><i className="fas fa-phone text-white"></i>: 213-555-0184</p>
@@ -484,7 +484,7 @@ function App() {
             <p className='text-left text-muted'>Wordpress Development</p>
             <p className='text-left text-muted'>Mobile App Development</p>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} md={2} lg={3}>
             <p className='text-left text-primary h4'>Company</p>
             <p className='text-left text-muted mt-3'>Benefits</p>
             <p className='text-left text-muted'>Services</p>
@@ -493,10 +493,10 @@ function App() {
             <p className='text-left text-muted'>Privacy Policy</p>
             <p className='text-left text-muted'>Terms & Conditions</p>
           </Col>
-          <Col xs={12} md={3}>
+          <Col xs={12} md={4} lg={3}>
             <p className='text-left text-primary h4'>Get In Touch</p>
-            <p className='mt-2 text-left text-muted mt-3' style={{fontWeight: '600'}} ><i className="fas fa-phone text-muted"></i>: 213-555-0184</p>
-            <p className='text-left text-muted' style={{fontWeight: '600'}}><i className="far fa-envelope text-muted"></i>: hello@deluxedesign.com</p>
+            <p className='mt-2 text-left text-muted mt-3' style={{fontWeight: '600', fontSize: '0.8rem'}} ><i className="fas fa-phone text-muted"></i>: 213-555-0184</p>
+            <p className='text-left text-muted' style={{fontWeight: '600', fontSize: '0.8rem'}}><i className="far fa-envelope text-muted"></i>: hello@deluxedesign.com</p>
           </Col>
         </Row>
         <Row>
