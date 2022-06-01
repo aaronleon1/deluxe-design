@@ -7,8 +7,12 @@ A digital agency landing page with the goal of converting customers.
 
 ## Included Packages:
 
-Google Firebase
-React.JS
-React-Bootstrap
-Sass
-Prettier
+- Google Firebase
+
+- React.JS
+
+- React-Bootstrap
+
+- Sass
+
+- Prettier
