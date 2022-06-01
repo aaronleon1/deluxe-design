@@ -1,149 +1,168 @@
 $primary: #233d63;
 $secondary: #6b70fd;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 .App {
-    text-align: center;
-    font-family: 'Inter', sans-serif !important;
-  }
-  
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
+}
 
-  .hero-row{
-    min-height: calc(80vh - 40px); 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
-    
-  }
+.App-link {
+  color: #61dafb;
+}
 
-  .featured-row{
-    height: 10vh;
-  }
+.benefits {
+  color: "#8B9CB6" !important;
+  line-height: "2rem" !important;
+  font-size: "1.3rem" !important;
+  font-weight: "500" !important;
+}
+.benefits-button {
+  border-radius: "999px" !important;
+  padding: "16px 20px" !important;
+}
 
-  .testimonial-row{
-    height: 100%;
-  }
-  .lets-talk, .cta-form{
-    background-image: linear-gradient(to right bottom, #233d63, #254c8a, #315ab1, #4966d7, #6b70fd);
-  }
+.hero-row {
+  min-height: calc(80vh - 40px);
+}
+
+.featured-row {
+  height: 10vh;
+}
+
+.testimonial-row {
+  height: 100%;
+}
+.lets-talk,
+.cta-form {
+  background-image: linear-gradient(
+    to right bottom,
+    #233d63,
+    #254c8a,
+    #315ab1,
+    #4966d7,
+    #6b70fd
+  );
+}
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px $secondary;
+}
+
+@media (max-width: 767px) {
   .card {
-    border-radius: 1rem;
-    box-shadow: 0px -10px 0px $secondary
+    margin: 1rem auto;
+    max-width: 80vw;
+  }
 }
 
-@media(max-width:767px) {
-    .card {
-        margin: 1rem auto;
-        max-width: 80vw
-    }
-}
-
-.card-img  {
-    width: 6.2rem !important;
-    border-radius: 5rem !important;
-    margin: 1.3rem auto 1rem auto !important;
+.card-img {
+  width: 6.2rem !important;
+  border-radius: 5rem !important;
+  margin: 1.3rem auto 1rem auto !important;
 }
 
 .col-md-4 {
-    padding: 0 0.5rem
+  padding: 0 0.5rem;
 }
 
 .card-title {
-    font-size: 1rem;
-    margin-bottom: 0;
-    font-weight: bold;
-    
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
 .card-text {
-    text-align: center;
-    padding: 1rem 2rem;
-    font-size: 0.8rem;
-    color: $primary !important;
-    line-height: 1.4rem;
-    font-weight: 500 !important;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: $primary !important;
+  line-height: 1.4rem;
+  font-weight: 500 !important;
 }
 
 .card-footer {
-    border-top: none;
-    text-align: center;
-    line-height: 1.2rem;
-    padding: 2rem 0 1.4rem 0;
-   
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
 }
 
 #name {
-    font-size: 0.8rem;
-    font-weight: bold
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 #position {
-    font-size: 0.7rem
+  font-size: 0.7rem;
 }
 
 a {
-    color: $primary;
-    font-weight: bold
+  color: $primary;
+  font-weight: bold;
 }
 
-.form-control{
+.form-control {
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
 }
 
-a:hover {
-    color: $secondary
+.footer {
+  background: "#f6f6f6" !important;
 }
 
-.deluxe-footer{
-  .Row{
-    .Col{
-      p{
+a:hover {
+  color: $secondary;
+}
+
+.deluxe-footer {
+  .Row {
+    .Col {
+      p {
         cursor: pointer;
       }
     }
   }
 }
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  .featured{
-      position: absolute;
-      bottom: 5%;
+  to {
+    transform: rotate(360deg);
   }
-  $theme-colors: (
-      'primary': #233d63,   
-      'secondary': #6b70fd,
-      'white': #fff
-  );
+}
+.featured {
+  position: absolute;
+  bottom: 5%;
+}
+$theme-colors: (
+  "primary": #233d63,
+  "secondary": #6b70fd,
+  "white": #fff,
+);
 
-  @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
