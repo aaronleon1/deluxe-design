@@ -48,8 +48,8 @@ const Benefits = () => {
           }}
         >
           Deluxe Design has a strong reputation as being one of the best web
-          design agencies in the performance marketing industry… and that’s good
-          news for you.
+          design agencies in the marketing industry… and that’s good news for
+          you.
         </p>
         <p
           className=" text-left mb-4 benefits"
@@ -62,8 +62,7 @@ const Benefits = () => {
         >
           Our highly skilled team of marketers, designers, developers, and brand
           experts know exactly what it takes to ensure your website grabs your
-          visitor’s attention, ensuring your online business is in the top 10%
-          that succeeds.
+          visitor’s attention, ensuring success for your online business.
         </p>
         <Row>
           <Button

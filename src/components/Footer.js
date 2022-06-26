@@ -83,7 +83,7 @@ const Footer = () => {
             className="text-left text-primary mt-5"
             style={{ fontWeight: "600" }}
           >
-            Copyright © 2021 DeluxeDesign. All Rights Reserved.
+            Copyright © 2022 DeluxeDesign. All Rights Reserved.
           </p>
         </Col>
       </Row>
